@@ -1,0 +1,22 @@
+/* src/componentes/Botoes/Botoes.module.css */
+.botoesContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.botaoSalvar {
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor do botão salvar */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoLimpar {
+    padding: 10px 20px;
+    background-color: #6c757d; /* Cor do botão limpar */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

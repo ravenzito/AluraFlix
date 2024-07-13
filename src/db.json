@@ -1,0 +1,66 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Front End",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "nome": "Back End",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 3,
+      "nome": "Inovação",
+      "cor": "#FFBA05"
+    },
+    {
+      "id": 4,
+      "nome": "Gestão",
+      "cor": "#C821A1"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "O que faz uma desenvolvedora front-end?",
+      "categoria": "Front End",
+      "url": "https://www.youtube.com/embed/ZY3-MFxVdEw?si=e0wbgZatsuqihL91",
+      "thumbnail": "https://img.youtube.com/vi/ZY3-MFxVdEw/maxresdefault.jpg",
+      "description": "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio!"
+    },
+    {
+      "id": 2,
+      "titulo": "As 9 Softskills mais desejadas pelas empresas.",
+      "categoria": "Gestão",
+      "url": "https://www.youtube.com/embed/SjY0zj17-8U?si=OXYh0mcqc8UebVcR",
+      "thumbnail": "https://img.youtube.com/vi/SjY0zj17-8U/maxresdefault.jpg",
+      "description": "O que são as Softskills e por que é tão importante desenvolvê-las para se posicionar no mercado de trabalho? Neste Alura+, a Pri Stuani fala sobre as 9 habilidades comportamentais mais buscadas por empresas em seus profissionais e como elas te auxiliam no dia a dia."
+    },
+    {
+      "id": 3,
+      "titulo": "Redes Neurais: Por que são tão poderosas?",
+      "categoria": "Inovação",
+      "url": "https://www.youtube.com/embed/Xs1MMj8C4t4?si=1imhPOFwq3ldCsVw",
+      "thumbnail": "https://img.youtube.com/vi/Xs1MMj8C4t4/maxresdefault.jpg",
+      "description": "Quando o assunto é aprendizado de máquina, as Redes Neurais viraram sinônimo de bom desempenho em aplicações que envolvem dados muito complexos como texto, imagens ou vídeos. Mas, você sabe por que elas são tão poderosas? A Camila Laranjeira desmistifica essa questão no Alura + dessa semana! Confira! 😉"
+    },
+    {
+      "id": 4,
+      "titulo": "Como fazer SEO com React, NextJS e Deploy estático feat. Dicas de Performance | Pokedex",
+      "categoria": "Front End",
+      "url": "https://www.youtube.com/embed/c8mVlakBESE?si=UQtMIyygkPDcW2VI",
+      "thumbnail": "https://img.youtube.com/vi/c8mVlakBESE/maxresdefault.jpg",
+      "description": "Eu to aqui pra nesse vídeo dizer que a gente vai aprender a começar uma app inspirada no desenho Pokémon com Nextjs e React, ver algumas dicas sobre performance e de quebra conhecer uma plataforma sensacional pra fazer deploy que é a Vercel. Tudo em 22 minutos nesse vídeo feito com todo o carinho do mundo construindo uma Pokedex!"
+    },
+    {
+      "id": 5,
+      "titulo": "Rick Astley - Never Gonna Give You Up (Official Music Video)",
+      "categoria": "Back End",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=C5Wkq5vyhzMS2D7y",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "description": "The official video for “Never Gonna Give You Up” by Rick Astley. "
+    }
+  ]
+}

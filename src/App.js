@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AppRoutes from './routes.js';
+import ListaCategorias from './componentes/ListaCategorias';
+import ListaVideo from 'componentes/ListaVideo/index.js';
+import { VideosProvider } from 'context/VideoContext.js';
+import Banner from 'componentes/Banner/index.js';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <VideosProvider>
+            <div>
+                <AppRoutes>
+                    <Banner />
+                    <ListaCategorias />
+                    <ListaVideo />
+                </AppRoutes>
+            </div>
+        </VideosProvider>
+    );
 }
 
 export default App;

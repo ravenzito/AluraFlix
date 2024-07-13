@@ -1,0 +1,25 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;    
+    background-color: var(--preto);
+}
+
+.rodape h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--azul);
+}
+
+.img{
+    width: 170px;
+    height: 40px;
+    padding: 1em;
+    border: 2px solid transparent;
+    position: relative;
+    border-color: var(--azul);
+    box-shadow: 0 0 15px var(--azul);
+    border-radius: 12px;
+    display: inline-block;
+}
